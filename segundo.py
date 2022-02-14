@@ -58,7 +58,7 @@ def daga(a,b):
     determinante7=  [[a[1,2] * a[2,3]] - [a[2,2]*a[1,3]]]
     determinante8=  [[a[1,1] * a[2,3]] - [a[2,1]*a[1,3]]]
     determinante9=  [[a[1,1] * a[2,2]] - [a[2,1]*a[1,2]]]
-    matriz_daga = [determinante1 , determinante2 , determinante3] , [determinante4 , determinante5 , determinante6] , [determinante7 , determinante8 , determinante9]
+    matriz_daga = [determinante1 , -determinante2 , determinante3] , [-determinante4 , determinante5 , -determinante6] , [determinante7 , -determinante8 , determinante9]
     return (matriz_daga)
 
 #Productor interno de dos vectores
